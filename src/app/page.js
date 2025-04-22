@@ -10,9 +10,10 @@ export default function Home() {
 
   `
   
-  return (
+  return <div>
+    <h1>Goofy ahh blog</h1>
     <Markdown>
       {title}
     </Markdown>
-  )
+  </div>
 }
